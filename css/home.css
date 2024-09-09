@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Caviardreams";
+    src: url(..fuentes/CaviarDreams/CaviarDreams.ttf);
+}
+#navbar {
+    height: 4em;
+    display: flex;
+    align-items: center;
+    margin-top:0%;
+    background-color: #bc0f0f;
+}
+body{
+    margin: 0em;
+    background-color: rgb(39, 3, 39);
+}
+#logo {
+    margin-left: 1.6em;
+    height: 3.7em;
+
+}
+.barraBus{
+    margin-left: 2em;
+    width: 28em;
+    margin-right:2em;
+}
+#form{
+    background-color: white;
+    border-radius: 0.2em;
+    
+}
+#barra{
+    width: 27.8em;
+    height: 2em;
+    border: 0em;
+    border-color: white;
+    border-top-left-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+#form button{
+    background-color: white;
+    border: 0em;
+}
+.dropdown{
+    position: relative;
+    }
+.dropdown button{
+    background-color: #bc0f0f;
+    border:0;
+}
+.titulo{
+    color: white;
+    text-decoration: none;
+    font-size:1.3em;
+    font-family: 'Caviardreams';
+    margin-right:1em;
+    margin-left:1em;
+}
+.dropdown-categorias{
+    overflow: auto;
+    display: none;
+    position:absolute;
+    border-radius:0.3em;
+    background-color: white;
+    
+}
+.dropdown:hover .dropdown-categorias{
+    display: block;
+    margin-left:1em;
+}
+.dropdown-item{
+    display: block;
+    text-decoration: none;
+    height:2em;
+    font-size: 1.2em;
+    width: 5.5em;
+    color: black;
+    text-decoration: none;
+    padding-left:0.3em;
+    padding-top:0.3em;
+}
+.dropdown-item:hover{
+
+    background-color: rgb(172, 55, 55);
+    
+}
+#carrito img{
+    height:1.4em;
+    width:1.4em;
+}
+#carrito{
+    margin-right: 1em;
+    border-radius:0.3em;
+    border: 0;
+}
+#ingresar{
+    margin-left:4em;
+    border-radius:0.3em;
+    border: 0;
+    height: 2em;
+    width: 5em;
+}
+#ingresar a{
+    text-decoration: none;
+    color: black;
+    font-size:1em;
+}#navbar {
+    height: 6em;
+    display: flex;
+    align-items: center;
+    margin-top:0%;
+    background-color: #bc0f0f;
+}
+body{
+    margin: 0em;
+    background-color: rgb(39, 3, 39);
+}
+#logo {
+    margin-left: 3em;
+    height: 5em;
+
+}
+.barraBus{
+    margin-left: 3em;
+    width: 50em;
+    margin-right:4em;
+}
+#form{
+    background-color: white;
+    border-radius: 1em;
+}
+#barra{
+    width: 50em;
+    height: 3em;
+    border: 0em;
+    border-color: white;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+#form button{
+    background-color: white;
+    border: 0em;
+}
+.dropdown{
+    position: relative;
+    margin:4em;
+
+
+}
+.dropdown button{
+    background-color: #bc0f0f;
+    border: 0cap;    
+}
+.titulo{
+    color: white;
+    text-decoration: none;
+    font-size:1.5em;
+    font-style: Alegreya Sans SC;
+    margin-right:1em;
+}
+.dropdown-categorias{
+    overflow: auto;
+    display: none;
+    position:absolute;
+    border-radius:0.5em;
+    background-color: white;
+    padding: 0.5em;
+}
+.dropdown:hover .dropdown-categorias{
+    display: block;
+}
+.dropdown-item{
+    display: block;
+    text-decoration: none;
+    height:2em;
+    font-size: 1.2em;
+}
