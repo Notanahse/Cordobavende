@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <div id="navbar">
+    <div id="navbar" id="nuevTar">
         <img  id="logo"src="../img/logo png.png" alt="">
         <div class="barraBus">
           <form id="form"> 
@@ -31,14 +31,31 @@
       <button id="ingresar"><a href="#">Ingresar</a></button>
       </div>
     </header>
-    <main class="main">
-        
-        <div class="formularioTarjeta">
-            <a href=""><h1>Volver <span class="barra">|</span></h1></a>
+    <main class="main" id="formularioTarjeta">
+    <a href=""><h1 id="nuevTar">Volver <span class="barra">|</span></h1></a>
+        <div>
            <div class="TarjNuev">
-                
-                <p>Numero tarjeta</p>
-                <input type="Numero">
+            <div class="numeroYnombre">
+                <div class="numTarj">
+                <p class="tituloTarj">Numero tarjeta</p>
+                <input id="inputNum"type="Numero" placeholder="Num.Tarjeta">
+            </div>
+            <div class="titularTarj">
+                <p class="tituloTarj">Nombre y apellido titular</p>
+                <input id="inputNum" placeholder="Nombre y apellido">
+            </div>
+        </div>
+        <div class="fechaYCod">
+            <div class="fechaVenc">
+                <p class="fecha">Fecha vencimiento</p>
+                <input id="inputdate"type="date" placeholder="Nombre y apellido">
+            </div>
+            <div class="codSegu">
+                <p class="Cod">Codigo de Seguridad</p>
+                <input id="inputdate"type="numero" placeholder="CVV">
+            </div>
+
+        </div>
            </div>
         </div>
   </main>
