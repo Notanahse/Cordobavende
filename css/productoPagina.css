@@ -831,3 +831,15 @@ margin-right: 2em;
     padding-top: 0.1%;
     background-color: #86DEBE;
 }
+#tipoTarj{
+    margin-left: 5%;
+    margin-top: 4%;
+    height: 4em;
+    width: 6em;
+    padding-left: 1%;
+    padding-top: 0.1%;
+    background-color: #86DEBE;
+}
+.tip{
+    margin-bottom: 8%;
+}
