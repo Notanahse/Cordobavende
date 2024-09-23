@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Especificaciones</title>
+        <link rel="stylesheet" href="/css/productoPagina.css">
+    </head>
+<body>
+    <header>
+        <div id="navbar">
+            <img  id="logo"src="/img/logo png.png" alt="">
+            <div class="barraBus">
+              <form id="form"> 
+                  <input id="barra" type="search"  placeholder="Search...">
+                  <button id="search"><img src="/img/lupa.png" alt=""></button>
+                </form>
+          </div>
+          <button id="carrito"><a href=""><img src="/img/carrito.png" alt=""></a></button>
+          <div class="dropdown">
+          <button><a href="" class="tituloNav">Categorias</a></button>
+          <div class="dropdown-categorias">
+              <a class="dropdown-item" href="#">Muebles</a>
+              <a class="dropdown-item" href="#">Electronica</a>
+              <a class="dropdown-item" href="#">Indumentaria</a>
+              <a class="dropdown-item" href="#">Vehiculos</a>
+          </div>
+          </div>
+          <a href="#" class="tituloNav">Mis Compras</a>
+          <a href="#" class="tituloNav">Publicar</a>
+          <button id="ingresar"><a href="#">Ingresar</a></button>
+          </div>
+        </header>
+    <main>
+        <div class="camino-migajas-compras">
+            <h1><a href="/html/Publicar-Arias/publicar.html" class="pagina-camino-migajas-reembolso">Volver </a><span class="barra">| Especificaciones </a></h1>
+        </div>
+        <div class="container">
+            <h1 id="tituloPublicar" >Especificaciones</h1>
+            <div class="form-group">
+                <label for="title">Indique el título de su producto:</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div class="form-group">
+                <label id="color" for="title">Indique la categoría de su producto:</label>
+                <select  name="color" required>
+                    <option value="">Seleccione una categoria</option>
+                    <option value="rojo">Accesorios para vehículos</option>
+                    <option value="verde">Agro</option>
+                    <option value="azul">Alimentos y bebidas</option>
+                    <option value="amarillo">Animales y mascotas</option>
+                    <option value="negro">Antiguedades y colecciones</option>
+                    <option value="blanco">Arte, libreria y mercería</option>
+                    <option value="gris">Bebés</option>
+                    <option value="naranja">Belleza y cuidado personal</option>
+                    <option value="morado">Cámaras y accesorios</option>
+                    <option value="rosa">Celulares y teléfonos</option>
+                    <option value="azul">Computacion</option>
+                    <option value="amarillo">Consola y videojuegos</option>
+                    <option value="negro">Construccion</option>
+                    <option value="blanco">Deportes y fitness</option>
+                    <option value="gris">Electrodomesticos</option>
+                    <option value="naranja">Electronica, audio y videos</option>
+                    <option value="morado">Entradas para eventos</option>
+                    <option value="rosa">Herramientas</option>
+                    <option value="naranja">Hogar, muebles y jardín</option>
+                    <option value="morado">Industrias y oficinas</option>
+                    <option value="rosa">Instrumentos musicales</option>
+                    <option value="azul">Joyas y relojes</option>
+                    <option value="amarillo">Juegos y juguetes</option>
+                    <option value="negro">Libros, revistas y comics</option>
+                    <option value="blanco">Musica, pelicula y series</option>
+                    <option value="gris">Ropa y accesorios</option>
+                    <option value="naranja">Salud y equipamiento medico</option>
+                    <option value="morado">Souvenirs, cotillon y fiestas</option>
+                    <option value="rosa">Otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label  id="condition" for="condition">Indique la condición de su producto:</label>
+                <select  name="condition" required>
+                    <option value="">Seleccione la condición</option>
+                    <option value="nuevo">Nuevo</option>
+                    <option value="usado">Usado</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label  id="color" for="color">Indique el color de su producto:</label>
+                <select  name="color" required>
+                    <option value="">Seleccione un color</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="verde">Verde</option>
+                    <option value="azul">Azul</option>
+                    <option value="amarillo">Amarillo</option>
+                    <option value="negro">Negro</option>
+                    <option value="blanco">Blanco</option>
+                    <option value="gris">Gris</option>
+                    <option value="naranja">Naranja</option>
+                    <option value="morado">Violeta</option>
+                    <option value="rosa">Rosa</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="brand">Indique la marca de su producto:</label>
+                <input type="text" id="brand" name="brand">
+            </div>
+            <div class="form-group">
+                <label for="images">Indique las imágenes de su producto:</label>
+                <input type="file" id="images" name="images[]" multiple accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <label id="color" for="stock">Indique el stock de su producto:</label>
+                <select  name="color" required>
+                    <option value="">Seleccione el stock</option>
+                    <option value="rojo">1</option>
+                    <option value="verde">2</option>
+                    <option value="azul">3</option>
+                    <option value="amarillo">4</option>
+                    <option value="negro">5</option>
+                    <option value="blanco">6</option>
+                    <option value="gris">7</option>
+                    <option value="naranja">8</option>
+                    <option value="morado">9</option>
+                    <option value="rosa">10</option>
+                    <option value="rojo">11</option>
+                    <option value="verde">12</option>
+                    <option value="azul">13</option>
+                    <option value="amarillo">14</option>
+                    <option value="negro">15</option>
+                    <option value="blanco">16</option>
+                    <option value="gris">17</option>
+                    <option value="naranja">18</option>
+                    <option value="morado">19</option>
+                    <option value="rosa">20</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label id="condition" for="sizes">Indique los talles de su producto:</label>
+                <select  name="condition" required>
+                    <option value="">Seleccione el talle</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="s">S</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+            </div>
+            <a class="opcion-publicar" href="/html/Publicar-Arias/publicarProductoFinal.html">Siguiente</a>
+        </div>
+    </main>
+    <footer class="footer2"></footer>
+        <img src="/img/logo png.png" alt="Logo">
+        <div class="footer-txt">
+            <div class="footer-parte">
+                <p class="titulo">Use cases</p>
+                <p>UI design</p>
+                <p>UX design</p>
+                <p>Wireframing</p>
+                <p>Diagramming</p>
+                <p>Brainstorming</p>
+                <p>Online whiteboard</p>
+                <p>Team collaboration</p>
+            </div>
+            <div class="footer-parte">
+                <p class="titulo">Explore</p>
+                <p>Design</p>
+                <p>Prototyping</p>
+                <p>Development features</p>
+                <p>Design systems</p>
+                <p>Collaboration features</p>
+                <p>Design process</p>
+                <p>FigJam</p>
+            </div>
+            <div class="footer-parte">
+                <p class="titulo">Resources</p>
+                <p>Blog</p>
+                <p>Best practices</p>
+                <p>Colors</p>
+                <p>Color wheel</p>
+                <p>Support</p>
+                <p>Developers</p>
+                <p>Resource library</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

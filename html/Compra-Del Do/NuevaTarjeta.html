@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
 <head>
     <link rel="stylesheet" text="text/css" href="/css/productoPagina.css">
     <meta charset="UTF-8">
@@ -7,34 +7,37 @@
     <title>CordobaVende Nueva Tarjeta</title>
 </head>
 <body>
-  <header>
-    <div id="navbar" id="nuevTar">
-        <img  id="logo"src="../img/logo png.png" alt="">
-        <div class="barraBus">
-          <form id="form"> 
-              <input id="barra" type="search"  placeholder="Search...">
-              <button id="search"><img src="../img/lupa.png" alt=""></button>
-            </form>
-      </div>
-      <button id="carrito"><a href=""><img src="../img/carrito.png" alt=""></a></button>
-      <div class="dropdown">
-      <button><a href="" class="tituloNav">Categorias</a></button>
-      <div class="dropdown-categorias">
-          <a class="dropdown-item" href="#">Muebles</a>
-          <a class="dropdown-item" href="#">Electronica</a>
-          <a class="dropdown-item" href="#">Indumentaria</a>
-          <a class="dropdown-item" href="#">Vehiculos</a>   
-      </div>
-      </div>
-      <a href="#" class="tituloNav">Mis Compras</a>
-      <a href="#" class="tituloNav">Publicar</a>
-      <button id="ingresar"><a href="#">Ingresar</a></button>
-      </div>
-    </header>
+    <header>
+        <div id="navbar">
+           <a href="/html/home.html"><img  id="logo"src="/img/logo png.png" alt=""></a>
+            <div class="barraBus">
+              <form id="form">
+                  <input id="barra" type="search"  placeholder="Search...">
+                  <button id="search"><img src="/img/lupa.png" alt=""></button>
+                </form>
+          </div>
+          <a id="carrito" href="/html/Compra-Del Do/"><img src="/img/carrito.png" alt=""></a>
+          <div class="dropdown">
+          <button><a href="" class="tituloNav">Categorias</a></button>
+          <div class="dropdown-categorias">
+              <a class="dropdown-item" href="#">Muebles</a>
+              <a class="dropdown-item" href="#">Electronica</a>
+              <a class="dropdown-item" href="#">Indumentaria</a>
+              <a class="dropdown-item" href="#">Vehiculos</a>
+          </div>
+          </div>
+          <a href="#" class="tituloNav">Mis Compras</a>
+          <a href="#" class="tituloNav" id="publi">Publicar</a>
+          <button id="ingresar"><a href="#">Ingresar</a></button>
+          </div>
+        </header>
+
+
     <main class="main" id="formularioTarjeta">
     <a href=""><h1 id="nuevTar">Volver <span class="barra">|</span></h1></a>
         <div>
            <div class="TarjNuev">
+            <h1 id="nuevTitulo"> Nueva tarjeta</h1>
             <div class="numeroYnombre">
                 <div class="numTarj">
                 <p class="tituloTarj">Numero tarjeta</p>
@@ -48,11 +51,11 @@
         <div class="fechaYCod">
             <div class="fechaVenc">
                 <p class="fecha">Fecha vencimiento</p>
-                <input id="inputdate"type="date" placeholder="Nombre y apellido">
+                <input id="inputdate"type="month" placeholder="Nombre y apellido">
             </div>
             <div class="codSegu">
                 <p class="Cod">Codigo de Seguridad</p>
-                <input id="inputdate"type="numero" placeholder="CVV">
+                <input id="inputNum"type="numero" placeholder="CVV">
             </div>
         </div>  
             <div class="tipoYDNI">
@@ -62,17 +65,22 @@
                     <option>Credito</option>
                     <option>Debito</option>
                 </select>
-                    
-                </form>
+            </div>
+            <div class="dniTitular">
+                <p class="DNI">DNI del titular</p>
+                <input id="inputDNI"type="numero" placeholder="DNI titular">
             </div>
         </div>
-
+        <div id="confbtn">
+        <a class="confirmar" href="">Confirmar</a>
+    </div>
            </div>
+           <img id="fotoTarj" src="/img/tarjetaPNG.PNG" alt="">
         </div>
   </main>
 
     <footer class="footer2">
-      <img src="../img/logo png.png" alt="Logo">
+      <img src="/img/logo png.png" alt="Logo">
       <div class="footer-txt">
           <div class="footer-parte">
               <p class="titulo">Use cases</p>
